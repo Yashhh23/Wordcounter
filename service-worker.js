@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/expansiveexe/precache-manifest.67ffa7b3ee6765096de46597bcd8b9c4.js"
+  "/Yashhh23/Wordcounter.git/precache-manifest.4c327af0edf64f32dc3de81c0eb56863.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/expansiveexe/index.html", {
+workbox.routing.registerNavigationRoute("/Yashhh23/Wordcounter.git/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
